@@ -58,6 +58,7 @@ function calculator(e) {
     }
   } catch (error) {
     display.innerHTML = "Math Error";
+    wipe = true;
   }
 }
 
