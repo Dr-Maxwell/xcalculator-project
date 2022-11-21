@@ -40,7 +40,6 @@ function calculator(e) {
         break;
       case "DEL":
         const ds = display.innerHTML;
-        wipe = true;
         if (ds.length === 1) {
           display.innerHTML = "0.00";
         } else {
