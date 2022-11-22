@@ -1,3 +1,4 @@
+//Xcalc App.
 const switchers = document.querySelectorAll(".switcher span");
 const display = document.querySelector(".display p");
 const btns = document.querySelectorAll(".btns button");
