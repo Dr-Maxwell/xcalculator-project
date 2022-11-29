@@ -126,6 +126,7 @@ main {
   border: none;
   border-radius: 0.4rem;
   color: var(--text);
+  background-color: var(--keybackground3);
   box-shadow: 0 3px 2px var(--keyshadow3);
 }
 
@@ -171,13 +172,13 @@ body.theme-3 {
   --keypadbackground: hsl(268, 71%, 12%);
   --screenbackground: hsl(268, 71%, 12%);
   --keybackground: hsl(281, 89%, 26%);
-  --keyshadow: hsl(290, 70%, 36%);
-  --keybackground2: hsl(25, 98%, 40%);
-  --keyshadow2: hsl(25, 99%, 27%);
-  --keybackground3: hsl(45, 7%, 89%);
-  --keyshadow3: hsl(35, 11%, 61%);
+  --keyshadow: hsl(285, 91%, 52%);
+  --keybackground2: hsl(176, 100%, 44%);
+  --keyshadow2: hsl(177, 92%, 70%);
+  --keybackground3: hsl(268, 47%, 21%);
+  --keyshadow3: hsl(290, 70%, 36%);
   --text: hsl(52, 100%, 62%);
   --white: hsl(198, 20%, 13%);
-  --text2: black;
-  --text-eq: white;
+  --text2: hsl(52, 100%, 62%);
+  --text-eq: black;
 }
